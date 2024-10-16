@@ -1,14 +1,6 @@
-
 @extends('app')
 @section('conteudo')
-    <h2>Título da postagem</h2>
-    <p> Lorem ipsum dolor sit amet (...) </p>
+    <h2>Agende seus eventos conoscos</h2>
+    <p> Melhores lugares, com os melhores preços (...) </p>
 @stop
 
-
-
-
-@section('autor')
-    <h3>Nome do autor</h3>
-    <p>Etiam euismod rhoncus egestas (...)</p>
-@stop

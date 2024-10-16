@@ -1,21 +1,21 @@
 @extends('app')
 @section('titulo')
- Seu formulário
+    Seu formulário
 @stop
 
 @section('conteudo')
-<form action="{{route('registrar_evento')}}" method="POST">
+    <form action="{{ route('registrar_evento') }}" method="POST">
 
 
 
-    @csrf
+        @csrf
 
-    <label for="">Nome</label> <br/>
-    <input type="text" name="nome"> <br/>
+        <label for="">Nome</label> <br />
+        <input type="text" name="nome"> <br />
 
-    <label for= "">Preço</label> <br/>
-    <input type="text" name="preco"> <br/>
+        <label for= "">Preço</label> <br />
+        <input type="text" name="preco"> <br />
 
-    <button>Salvar</button>
-</form>
+        <button>Salvar</button>
+    </form>
 @stop

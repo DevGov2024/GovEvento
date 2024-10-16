@@ -4,7 +4,7 @@
 @stop
 
 @section('conteudo')
-<form action="{{route('excluir_evento', ['id' =>$produto->id]) }}" method="POST">
+    <form action="{{ route('excluir_evento', ['id' => $produto->id]) }}" method="POST">
 
         @csrf
 
