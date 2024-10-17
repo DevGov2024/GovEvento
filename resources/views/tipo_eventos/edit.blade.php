@@ -11,20 +11,8 @@
 
         <label for="">Nome</label> <br />
         <input type="text" name="nome" value="{{ $produto->nome }}"> <br />
-
-
-
-
         <label for="">preço</label> <br />
         <input type="text" name="preco" value="{{ $produto->preco }}"> <br />
-
-
-
-
-
-
-
-
 
         <button>Salvar</button>
 

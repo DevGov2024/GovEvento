@@ -26,15 +26,12 @@
                                 Apagar eventos criados
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/produto/excluir/2">Evento 2</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/3">Evento 3 </a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/4">Evento 4</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/5">Evento 5</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/6">Evento 6</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/7">Evento 7</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/8">Evento 8</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/9">Evento 9</a></li>
-                                <li><a class="dropdown-item" href="/produto/excluir/10">Evento 10</a></li>
+                                <li><a class="dropdown-item" href="/produto/excluir/11">Evento 11</a></li>
+                                <li><a class="dropdown-item" href="/produto/excluir/12">Evento 12 </a></li>
+                                <li><a class="dropdown-item" href="/produto/excluir/13">Evento 13</a></li>
+                                <li><a class="dropdown-item" href="/produto/excluir/14">Evento 14</a></li>
+                                <li><a class="dropdown-item" href="/produto/excluir/15">Evento 15</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -46,15 +43,12 @@
                                 Visualizar eventos criados
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/produto/ver/2">Evento 2</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/3">Evento 3 </a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/4">Evento 4</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/5">Evento 5</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/6">Evento 6</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/7">Evento 7</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/8">Evento 8</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/9">Evento 9</a></li>
-                                <li><a class="dropdown-item" href="/produto/ver/10">Evento 10</a></li>
+                                <li><a class="dropdown-item" href="/produto/ver/11">Evento 11</a></li>
+                                <li><a class="dropdown-item" href="/produto/ver/12">Evento 12 </a></li>
+                                <li><a class="dropdown-item" href="/produto/ver/13">Evento 13</a></li>
+                                <li><a class="dropdown-item" href="/produto/ver/14">Evento 14</a></li>
+                                <li><a class="dropdown-item" href="/produto/ver/15">Evento 15</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -63,15 +57,12 @@
                                 Editar eventos criados
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/produto/editar/2}">Evento 2</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/3">Evento 3 </a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/4}">Evento 4</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/5}">Evento 5</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/6}">Evento 6</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/7}">Evento 7</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/8}">Evento 8</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/9}">Evento 9</a></li>
-                                <li><a class="dropdown-item" href="/produto/editar/10}">Evento 10</a></li>
+                                <li><a class="dropdown-item" href="/produto/editar/11}">Evento 11</a></li>
+                                <li><a class="dropdown-item" href="/produto/editar/12">Evento 12 </a></li>
+                                <li><a class="dropdown-item" href="/produto/editar/13}">Evento 13</a></li>
+                                <li><a class="dropdown-item" href="/produto/editar/14}">Evento 14</a></li>
+                                <li><a class="dropdown-item" href="/produto/editar/15}">Evento 15</a></li>
+
                             </ul>
                         </li>
                     </ul>
@@ -89,7 +80,7 @@
     <section class="author">
         @yield('autor')
     </section>
-    <article class="dev">
+    <article class="dev2">
         @yield('dev')
     </article>
     <section class="Layouts">
