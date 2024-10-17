@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class tipoEventos extends Model
 {
-    protected $fillable = ['nome', 'preco',];
+    protected $fillable = ['nome', 'preco'];
 }

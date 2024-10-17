@@ -23,13 +23,13 @@ Route::get('/', function () {
 
 
 
-      Route::get('/', 'PagesController@index');
-      Route::get('/amigos', 'PagesController@amigos');
-      Route::get('/sobre', 'PagesController@sobre');
-      Route::get('/tipo_eventos/novo', 'tipo_eventosController@create');
-      Route::post('/tipo_evento/novo' , 'tipo_eventosController@store') ->name('registrar_evento');
-      Route::get('/produto/ver/{id}', 'tipo_eventosController@show');
-      Route::get('/produto/editar/{id}', 'tipo_eventosController@edit');
-      Route::post('/produto/editar/{id}', 'tipo_eventosController@update') ->name('alterar_evento');
-      Route::get('/produto/excluir/{id}', 'tipo_eventosController@delete');
-      Route::post('/produto/excluir/{id}', 'tipo_eventosController@destroy')  ->name('excluir_evento');  ;
+Route::get('/', 'PagesController@index');
+Route::get('/amigos', 'PagesController@amigos');
+Route::get('/sobre', 'PagesController@sobre');
+Route::get('/tipo_eventos/novo', 'tipo_eventosController@create');
+Route::post('/tipo_evento/novo', 'tipo_eventosController@store')->name('registrar_evento');
+Route::get('/produto/ver/{id}', 'tipo_eventosController@show');
+Route::get('/produto/editar/{id}', 'tipo_eventosController@edit');
+Route::post('/produto/editar/{id}', 'tipo_eventosController@update')->name('alterar_evento');
+Route::get('/produto/excluir/{id}', 'tipo_eventosController@delete');
+Route::post('/produto/excluir/{id}', 'tipo_eventosController@destroy')->name('excluir_evento');;

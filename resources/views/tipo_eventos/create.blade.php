@@ -13,8 +13,17 @@
         <label for="">Nome</label> <br />
         <input type="text" name="nome"> <br />
 
+
         <label for= "">Preço</label> <br />
         <input type="text" name="preco"> <br />
+
+
+
+
+
+
+
+
 
         <button>Salvar</button>
     </form>

@@ -16,7 +16,7 @@ class CreateTipoEventosTable extends Migration
         Schema::create('tipo_eventos', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table ->decimal('preco', 19,2);
+            $table->decimal('preco', 19, 2);
             $table->timestamps();
         });
     }

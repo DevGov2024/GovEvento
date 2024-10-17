@@ -12,6 +12,7 @@
         <label for="">Tem certeza que deseja excluir esse produto?</label> <br />
         <input type="text" name="nome" value="{{ $produto->nome }}"> <br />
 
+
         <button>Sim</button>
 
     </form>
